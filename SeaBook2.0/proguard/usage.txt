@@ -1,0 +1,916 @@
+com.google.ads.Ad:
+    public abstract boolean isReady()
+    public abstract void loadAd(com.google.ads.AdRequest)
+    public abstract void setAdListener(com.google.ads.AdListener)
+    public abstract void stopLoading()
+com.google.ads.AdActivity:
+    public static final java.lang.String BASE_URL_PARAM
+    public static final java.lang.String HTML_PARAM
+    public static final java.lang.String URL_PARAM
+    public static final java.lang.String INTENT_ACTION_PARAM
+    public static final java.lang.String TYPE_PARAM
+    public static final java.lang.String ORIENTATION_PARAM
+com.google.ads.AdRequest:
+    public static final java.lang.String VERSION
+    public static final java.lang.String LOGTAG
+    public void setGender(com.google.ads.AdRequest$Gender)
+    public void setBirthday(java.lang.String)
+    public void setKeywords(java.util.Set)
+    public void addKeyword(java.lang.String)
+    public void setExtras(java.util.Map)
+    public void addExtra(java.lang.String,java.lang.Object)
+    public void setLocation(android.location.Location)
+    public void setTesting(boolean)
+    public void addTestDevice(java.lang.String)
+    public void setTestDevices(java.util.Set)
+com.google.ads.AdSize:
+    public AdSize(int,int)
+com.google.ads.AdView:
+    public void destroy()
+    public boolean isReady()
+    public void setAdListener(com.google.ads.AdListener)
+    public void stopLoading()
+com.google.ads.InterstitialAd:
+    private d a
+    public InterstitialAd(android.app.Activity,java.lang.String)
+    public boolean isReady()
+    public void loadAd(com.google.ads.AdRequest)
+    public void show()
+    public void setAdListener(com.google.ads.AdListener)
+    public void stopLoading()
+com.sean.android.ebookmain.R
+com.sean.android.ebookmain.R$attr
+com.sean.android.ebookmain.R$color
+com.sean.android.ebookmain.R$drawable
+com.sean.android.ebookmain.R$id
+com.sean.android.ebookmain.R$layout
+com.sean.android.ebookmain.R$menu
+com.sean.android.ebookmain.R$string
+com.sean.android.ebookmain.R$xml
+com.sean.bookcase.BookCaseList:
+    private static final java.lang.String TAG
+d:
+    public final synchronized void b()
+    public final synchronized boolean o()
+    public final synchronized void a(com.google.ads.AdListener)
+    public final synchronized void x()
+    public final synchronized void y()
+org.amse.ys.zip.DeflatingDecompressor:
+    private static final int IN_BUFFER_SIZE
+    private static final int OUT_BUFFER_SIZE
+org.amse.ys.zip.LocalFileHeader:
+    static final int FILE_HEADER_SIGNATURE
+    static final int FOLDER_HEADER_SIGNATURE
+    static final int END_OF_CENTRAL_DIRECTORY_SIGNATURE
+    static final int DATA_DESCRIPTOR_SIGNATURE
+org.amse.ys.zip.ZipFile:
+    39:40:public ZipFile(java.lang.String)
+org.amse.ys.zip.ZipFile$FileInputStreamHolder
+org.geometerplus.android.fbreader.BookInfoActivity:
+    private static final boolean ENABLE_EXTENDED_FILE_INFO
+    public static final java.lang.String CURRENT_BOOK_PATH_KEY
+    public static final java.lang.String HIDE_OPEN_BUTTON_KEY
+    286:299:private java.lang.String formatSize(long)
+    303:306:private java.lang.String formatDate(long)
+org.geometerplus.android.fbreader.BookmarksActivity:
+    private static final int OPEN_ITEM_ID
+    private static final int EDIT_ITEM_ID
+    private static final int DELETE_ITEM_ID
+org.geometerplus.android.fbreader.CancelActivity:
+    static final java.lang.String LIST_SIZE
+    static final java.lang.String ITEM_TITLE
+    static final java.lang.String ITEM_SUMMARY
+org.geometerplus.android.fbreader.ControlButtonPanel:
+    public abstract void createControlPanel(org.geometerplus.android.fbreader.FBReader,android.widget.RelativeLayout)
+org.geometerplus.android.fbreader.ControlPanel$VisibilityAction
+org.geometerplus.android.fbreader.CoverAbsSpinner:
+    android.view.animation.Interpolator mInterpolator
+    297:300:public void setSelection(int)
+    1:1:public void setAdapter(android.widget.Adapter)
+org.geometerplus.android.fbreader.CoverAbsSpinner$RecycleBin:
+    481:481:android.view.View peek(int)
+org.geometerplus.android.fbreader.CoverAdapterView:
+    public static final int ITEM_VIEW_TYPE_IGNORE
+    public static final int ITEM_VIEW_TYPE_HEADER_OR_FOOTER
+    static final int SYNC_SELECTED_POSITION
+    static final int SYNC_FIRST_POSITION
+    static final int SYNC_MAX_DURATION_MILLIS
+    public static final int INVALID_POSITION
+    public static final long INVALID_ROW_ID
+    275:275:public final org.geometerplus.android.fbreader.CoverAdapterView$OnItemClickListener getOnItemClickListener()
+    327:331:public void setOnItemLongClickListener(org.geometerplus.android.fbreader.CoverAdapterView$OnItemLongClickListener)
+    338:338:public final org.geometerplus.android.fbreader.CoverAdapterView$OnItemLongClickListener getOnItemLongClickListener()
+    378:379:public void setOnItemSelectedListener(org.geometerplus.android.fbreader.CoverAdapterView$OnItemSelectedListener)
+    382:382:public final org.geometerplus.android.fbreader.CoverAdapterView$OnItemSelectedListener getOnItemSelectedListener()
+    public abstract void setAdapter(android.widget.Adapter)
+    555:560:public java.lang.Object getSelectedItem()
+    614:614:public int getFirstVisiblePosition()
+    624:624:public int getLastVisiblePosition()
+    public abstract void setSelection(int)
+    637:642:public void setEmptyView(android.view.View)
+    652:652:public android.view.View getEmptyView()
+    743:744:public java.lang.Object getItemAtPosition(int)
+org.geometerplus.android.fbreader.CoverAdapterView$AdapterDataSetObserver:
+    822:823:public void clearSavedState()
+org.geometerplus.android.fbreader.CoverFlow:
+    private static final java.lang.String TAG
+    private static final boolean localLOGV
+    private static final int SCROLL_TO_FLING_UNCERTAINTY_TIMEOUT
+    280:281:public void setCallbackDuringFling(boolean)
+    293:294:public void setCallbackOnUnselectedItemClick(boolean)
+    306:307:public void setAnimationDuration(int)
+    328:329:public void setUnselectedAlpha(float)
+    1445:1449:public void setGravity(int)
+org.geometerplus.android.fbreader.DictionaryUtil$ColorDict3
+org.geometerplus.android.fbreader.FBReader:
+    public static final java.lang.String BOOK_PATH_KEY
+    private static final java.lang.String TAG
+    static final int REPAINT_CODE
+    static final int CANCEL_CODE
+org.geometerplus.android.fbreader.NavigationButtonPanel:
+    private static final java.lang.String TAG
+org.geometerplus.android.fbreader.ProcessHyperlinkAction:
+    private static final java.lang.String ACTION_LINK_PREFIX
+org.geometerplus.android.fbreader.TOCActivity:
+    private static final int PROCESS_TREE_ITEM_ID
+    private static final int READ_BOOK_ITEM_ID
+org.geometerplus.android.fbreader.ZLTreeAdapter:
+    164:171:protected void resetTree(org.geometerplus.zlibrary.core.tree.ZLTree)
+    174:178:public void resetTree()
+    public abstract android.view.View getView(int,android.view.View,android.view.ViewGroup)
+org.geometerplus.android.fbreader.ebookmain:
+    private android.view.View mCustomView
+    private static final java.lang.String TAG
+    private android.widget.Button mlocal
+    private android.widget.Button mnetwork
+    private android.widget.Button mbookmark
+    private android.widget.Button msetting
+    private org.geometerplus.android.fbreader.FBReader mFBReader
+    335:335:private void initializeButton()
+    385:385:private void setAllButtonInVisible()
+    415:415:private void setAllButtonVisible()
+    468:468:private void setHomeVisible()
+    594:596:public void RoadRecentBook()
+    599:600:void enqueuePackageUpdated(org.geometerplus.android.fbreader.ebookmain$PackageUpdatedTask)
+    75:75:static android.content.Context access$1(org.geometerplus.android.fbreader.ebookmain)
+org.geometerplus.android.fbreader.ebookmain$ImageAdapter:
+    int mGalleryItemBackground
+    589:589:public float getScale(boolean,int)
+org.geometerplus.android.fbreader.ebookmain$PackageUpdatedTask
+org.geometerplus.android.fbreader.image.ImageViewActivity:
+    public static final java.lang.String BACKGROUND_COLOR_KEY
+org.geometerplus.android.fbreader.library.BaseActivity:
+    public static final java.lang.String SELECTED_BOOK_PATH_KEY
+    private static final int OPEN_BOOK_ITEM_ID
+    private static final int SHOW_BOOK_INFO_ITEM_ID
+    private static final int ADD_TO_FAVORITES_ITEM_ID
+    private static final int REMOVE_FROM_FAVORITES_ITEM_ID
+    private static final int DELETE_BOOK_ITEM_ID
+    protected static final int CHILD_LIST_REQUEST
+    protected static final int BOOK_INFO_REQUEST
+    protected static final int RESULT_DONT_INVALIDATE_VIEWS
+    protected static final int RESULT_DO_INVALIDATE_VIEWS
+org.geometerplus.android.fbreader.library.LibraryBaseActivity:
+    static final java.lang.String TREE_PATH_KEY
+    static final java.lang.String PARAMETER_KEY
+    static final java.lang.String PATH_FAVORITES
+    static final java.lang.String PATH_SEARCH_RESULTS
+    static final java.lang.String PATH_RECENT
+    static final java.lang.String PATH_BY_AUTHOR
+    static final java.lang.String PATH_BY_TITLE
+    static final java.lang.String PATH_BY_TAG
+    protected static final java.lang.String ACTION_FOUND
+org.geometerplus.android.fbreader.network.AddCustomCatalogItemActions:
+    public static final int RUN_ITEM_ID
+org.geometerplus.android.fbreader.network.AuthenticationActivity:
+    static final java.lang.String AREA_KEY
+    static final java.lang.String HOST_KEY
+    static final java.lang.String SCHEME_KEY
+    static final java.lang.String USERNAME_KEY
+    static final java.lang.String PASSWORD_KEY
+    static final java.lang.String ERROR_KEY
+    static final java.lang.String SHOW_SIGNUP_LINK_KEY
+    static final int RESULT_SIGNUP
+org.geometerplus.android.fbreader.network.BookDownloaderInterface$Stub:
+    private static final java.lang.String DESCRIPTOR
+    static final int TRANSACTION_isBeingDownloaded
+org.geometerplus.android.fbreader.network.BookDownloaderInterface$Stub$Proxy:
+    71:71:public java.lang.String getInterfaceDescriptor()
+org.geometerplus.android.fbreader.network.BookDownloaderService:
+    public static final java.lang.String BOOK_FORMAT_KEY
+    public static final java.lang.String REFERENCE_TYPE_KEY
+    public static final java.lang.String CLEAN_URL_KEY
+    public static final java.lang.String TITLE_KEY
+    public static final java.lang.String SSL_CERTIFICATE_KEY
+    public static final java.lang.String SHOW_NOTIFICATIONS_KEY
+org.geometerplus.android.fbreader.network.BookDownloaderService$Notifications
+org.geometerplus.android.fbreader.network.ItemsLoadingService:
+    private static final java.lang.String KEY
+org.geometerplus.android.fbreader.network.NetworkBaseActivity:
+    protected static final int BASIC_AUTHENTICATION_CODE
+    protected static final int CUSTOM_AUTHENTICATION_CODE
+    protected static final int SIGNUP_CODE
+org.geometerplus.android.fbreader.network.NetworkBookActions:
+    public static final int DOWNLOAD_BOOK_ITEM_ID
+    public static final int DOWNLOAD_DEMO_ITEM_ID
+    public static final int READ_BOOK_ITEM_ID
+    public static final int READ_DEMO_ITEM_ID
+    public static final int DELETE_BOOK_ITEM_ID
+    public static final int DELETE_DEMO_ITEM_ID
+    public static final int BUY_DIRECTLY_ITEM_ID
+    public static final int BUY_IN_BROWSER_ITEM_ID
+    public static final int SHOW_BOOK_ACTIVITY_ITEM_ID
+    public static final int SHOW_BOOKS_ITEM_ID
+    public static final int ADD_BOOK_TO_BASKET
+    public static final int REMOVE_BOOK_FROM_BASKET
+    public static final int ADD_CATALOG_TO_FAVORITES
+    public static final int REMOVE_CATALOG_FROM_FAVORITES
+org.geometerplus.android.fbreader.network.NetworkCatalogActions:
+    public static final int OPEN_CATALOG_ITEM_ID
+    public static final int OPEN_IN_BROWSER_ITEM_ID
+    public static final int RELOAD_ITEM_ID
+    public static final int SIGNUP_ITEM_ID
+    public static final int SIGNIN_ITEM_ID
+    public static final int SIGNOUT_ITEM_ID
+    public static final int TOPUP_ITEM_ID
+    public static final int CUSTOM_CATALOG_EDIT
+    public static final int CUSTOM_CATALOG_REMOVE
+    public static final int BASKET_CLEAR
+    public static final int BASKET_BUY_ALL_BOOKS
+org.geometerplus.android.fbreader.network.NetworkCatalogActions$CatalogExpander:
+    306:306:public java.lang.String getResourceKey()
+org.geometerplus.android.fbreader.network.NetworkCatalogActivity:
+    private static final java.lang.String ACTIVITY_BY_TREE_KEY
+org.geometerplus.android.fbreader.network.NetworkLibraryActivity:
+    static final java.lang.String ADD_CATALOG
+    private static final java.lang.String ADD_CATALOG_TITLE_KEY
+    private static final java.lang.String ADD_CATALOG_SUMMARY_KEY
+    private static final java.lang.String ADD_CATALOG_ID_KEY
+    private static final java.lang.String ADD_CATALOG_URLS_MAP_KEY
+    private static final int MENU_SEARCH
+    private static final int MENU_REFRESH
+    private static final int MENU_ADD_CATALOG
+    private static final int MENU_LANGUAGE_FILTER
+org.geometerplus.android.fbreader.network.NetworkNotifications:
+    private static final int BOOK_DOWNLOADING_START
+    private static final int BOOK_DOWNLOADING_END
+org.geometerplus.android.fbreader.network.NetworkSearchActivity$Searcher:
+    68:68:public java.lang.String getResourceKey()
+org.geometerplus.android.fbreader.network.NetworkTreeActions:
+    public static final int TREE_NO_ACTION
+    public static final int TREE_SHOW_CONTEXT_MENU
+    54:54:protected final java.lang.String getConfirmValue(java.lang.String,java.lang.String)
+org.geometerplus.android.fbreader.network.SearchItemActions:
+    public static final int RUN_SEARCH_ITEM_ID
+org.geometerplus.android.fbreader.network.TopupActions:
+    public static final int TOPUP_VIA_SMS_ITEM_ID
+    public static final int TOPUP_VIA_BROWSER_ITEM_ID
+    public static final int TOPUP_VIA_CREDIT_CARD_ITEM_ID
+    public static final int TOPUP_VIA_SELF_SERVICE_ITEM_ID
+org.geometerplus.android.fbreader.network.UserRegistrationConstants
+org.geometerplus.android.fbreader.network.Util:
+    private static final java.lang.String REGISTRATION_ACTION
+    static final java.lang.String SMS_TOPUP_ACTION
+    static final java.lang.String CREDIT_CARD_TOPUP_ACTION
+    static final java.lang.String SELF_SERVICE_KIOSK_TOPUP_ACTION
+    static final java.lang.String TREE_KEY_KEY
+org.geometerplus.android.fbreader.preferences.EditBookInfoActivity:
+    1:1:public org.geometerplus.android.fbreader.preferences.ZLPreference addOption(org.geometerplus.zlibrary.core.options.ZLBooleanOption,java.lang.String)
+org.geometerplus.android.fbreader.preferences.InfoPreference
+org.geometerplus.android.fbreader.preferences.PreferenceActivity:
+    1:1:public org.geometerplus.android.fbreader.preferences.ZLPreference addOption(org.geometerplus.zlibrary.core.options.ZLBooleanOption,java.lang.String)
+org.geometerplus.android.fbreader.preferences.ZLBoolean3Preference:
+    private static final java.lang.String ON
+    private static final java.lang.String OFF
+    private static final java.lang.String UNCHANGED
+org.geometerplus.android.fbreader.preferences.ZLPreferenceActivity:
+    116:119:public org.geometerplus.android.fbreader.preferences.ZLPreference addOption(org.geometerplus.zlibrary.core.options.ZLBooleanOption,java.lang.String)
+org.geometerplus.android.fbreader.preferences.ZLPreferenceActivity$Screen:
+    46:47:public void setSummary(java.lang.CharSequence)
+    86:88:public void close()
+    91:92:public void setOnPreferenceClickListener(android.preference.Preference$OnPreferenceClickListener)
+org.geometerplus.fbreader.bookmodel.BookReader:
+    363:364:public final void setReference(int,int)
+    367:373:public final void setReference(int,org.geometerplus.zlibrary.text.model.ZLTextWritableModel,int)
+    384:384:public final boolean contentsParagraphIsOpen()
+org.geometerplus.fbreader.bookmodel.FBHyperlinkType
+org.geometerplus.fbreader.bookmodel.FBTextKind
+org.geometerplus.fbreader.fbreader.ActionCode
+org.geometerplus.fbreader.fbreader.ColorProfile:
+    public static final java.lang.String DAY
+    public static final java.lang.String NIGHT
+    35:44:public static java.util.List names()
+    66:74:private ColorProfile(java.lang.String,org.geometerplus.fbreader.fbreader.ColorProfile)
+org.geometerplus.fbreader.fbreader.FBView:
+    public static final int SCROLLBAR_SHOW_AS_FOOTER
+org.geometerplus.fbreader.fbreader.FBView$Footer:
+    504:504:public int getGaugeWidth()
+    509:519:public void setProgress(int)
+org.geometerplus.fbreader.fbreader.TapZoneMap:
+    40:43:TapZoneMap(int,int)
+org.geometerplus.fbreader.formats.PluginCollection:
+    60:63:public static void deleteInstance()
+org.geometerplus.fbreader.formats.fb2.FB2AnnotationReader:
+    private static final int READ_NOTHING
+    private static final int READ_ANNOTATION
+org.geometerplus.fbreader.formats.fb2.FB2MetaInfoReader:
+    private static final int READ_NOTHING
+    private static final int READ_SOMETHING
+    private static final int READ_TITLE
+    private static final int READ_AUTHOR
+    private static final int READ_AUTHOR_NAME_0
+    private static final int READ_AUTHOR_NAME_1
+    private static final int READ_AUTHOR_NAME_2
+    private static final int READ_LANGUAGE
+    private static final int READ_GENRE
+org.geometerplus.fbreader.formats.fb2.FB2Tag:
+    public static final byte UNKNOWN
+    public static final byte P
+    public static final byte V
+    public static final byte SUBTITLE
+    public static final byte TEXT_AUTHOR
+    public static final byte DATE
+    public static final byte CITE
+    public static final byte SECTION
+    public static final byte POEM
+    public static final byte STANZA
+    public static final byte EPIGRAPH
+    public static final byte ANNOTATION
+    public static final byte COVERPAGE
+    public static final byte A
+    public static final byte EMPTY_LINE
+    public static final byte SUP
+    public static final byte SUB
+    public static final byte EMPHASIS
+    public static final byte STRONG
+    public static final byte CODE
+    public static final byte STRIKETHROUGH
+    public static final byte TITLE
+    public static final byte BODY
+    public static final byte IMAGE
+    public static final byte BINARY
+    public static final byte FICTIONBOOK
+    public static final byte TITLE_INFO
+    public static final byte BOOK_TITLE
+    public static final byte AUTHOR
+    public static final byte LANG
+    public static final byte FIRST_NAME
+    public static final byte MIDDLE_NAME
+    public static final byte LAST_NAME
+    public static final byte SEQUENCE
+    public static final byte GENRE
+    public static final byte DESCRIPTION
+org.geometerplus.fbreader.formats.html.HtmlMetaInfoReader
+org.geometerplus.fbreader.formats.html.HtmlPlugin
+org.geometerplus.fbreader.formats.html.HtmlTag:
+    public static final byte UNKNOWN
+    public static final byte HTML
+    public static final byte HEAD
+    public static final byte BODY
+    public static final byte TITLE
+    public static final byte P
+    public static final byte H1
+    public static final byte H2
+    public static final byte H3
+    public static final byte H4
+    public static final byte H5
+    public static final byte H6
+    public static final byte A
+    public static final byte B
+    public static final byte I
+    public static final byte BR
+    public static final byte STRONG
+    public static final byte IMG
+    public static final byte SCRIPT
+    public static final byte OL
+    public static final byte UL
+    public static final byte LI
+    public static final byte SELECT
+    public static final byte DIV
+    public static final byte TR
+    public static final byte STYLE
+    public static final byte S
+    public static final byte SUB
+    public static final byte SUP
+    public static final byte PRE
+    public static final byte CODE
+    public static final byte EM
+    public static final byte DFN
+    public static final byte CITE
+    public static final byte HR
+    public static final byte REFERENCE
+    public static final byte GUIDE
+    public static final byte TAG_NUMBER
+org.geometerplus.fbreader.formats.oeb.NCXReader:
+    private static final int READ_NONE
+    private static final int READ_MAP
+    private static final int READ_POINT
+    private static final int READ_LABEL
+    private static final int READ_TEXT
+    private static final java.lang.String TAG_NAVMAP
+    private static final java.lang.String TAG_NAVPOINT
+    private static final java.lang.String TAG_NAVLABEL
+    private static final java.lang.String TAG_CONTENT
+    private static final java.lang.String TAG_TEXT
+    private static final java.lang.String ATTRIBUTE_PLAYORDER
+org.geometerplus.fbreader.formats.oeb.OEBAnnotationReader:
+    private static final int READ_NONE
+    private static final int READ_DESCRIPTION
+org.geometerplus.fbreader.formats.oeb.OEBBookReader:
+    private static final java.lang.String MANIFEST
+    private static final java.lang.String SPINE
+    private static final java.lang.String GUIDE
+    private static final java.lang.String TOUR
+    private static final java.lang.String SITE
+    private static final java.lang.String REFERENCE
+    private static final java.lang.String ITEMREF
+    private static final java.lang.String ITEM
+    private static final java.lang.String COVER_IMAGE
+    private static final int READ_NONE
+    private static final int READ_MANIFEST
+    private static final int READ_SPINE
+    private static final int READ_GUIDE
+    private static final int READ_TOUR
+org.geometerplus.fbreader.formats.oeb.OEBCoverBackgroundReader:
+    private static final java.lang.String GUIDE
+    private static final java.lang.String REFERENCE
+    private static final java.lang.String COVER
+    private static final java.lang.String COVER_IMAGE
+org.geometerplus.fbreader.formats.oeb.OEBMetaInfoReader:
+    private static final int READ_NONE
+    private static final int READ_AUTHOR
+    private static final int READ_AUTHOR2
+    private static final int READ_TITLE
+    private static final int READ_SUBJECT
+    private static final int READ_LANGUAGE
+org.geometerplus.fbreader.formats.pdb.HuffdicDecompressor
+org.geometerplus.fbreader.formats.pdb.PalmDocLikeStream$CompressionType
+org.geometerplus.fbreader.formats.pdb.PdbStream:
+    82:87:public void skip(int)
+org.geometerplus.fbreader.formats.plucker.DocCompressedFileImage
+org.geometerplus.fbreader.formats.plucker.PluckerBookReader
+org.geometerplus.fbreader.formats.plucker.PluckerBookReader$FontType
+org.geometerplus.fbreader.formats.plucker.PluckerBookReader$Pair
+org.geometerplus.fbreader.formats.plucker.PluckerFileImage
+org.geometerplus.fbreader.formats.plucker.PluckerPlugin
+org.geometerplus.fbreader.formats.plucker.PluckerTextStream
+org.geometerplus.fbreader.formats.plucker.ZCompressedFileImage
+org.geometerplus.fbreader.library.Bookmark:
+    public static final int CREATION
+    public static final int MODIFICATION
+    public static final int ACCESS
+    public static final int LATEST
+    127:133:public void setText(java.lang.String)
+org.geometerplus.fbreader.library.Library:
+    public static final int STATE_NOT_INITIALIZED
+    public static final int STATE_FULLY_INITIALIZED
+    public static final int REMOVE_DONT_REMOVE
+    public static final int REMOVE_FROM_LIBRARY
+    public static final int REMOVE_FROM_DISK
+    public static final int REMOVE_FROM_LIBRARY_AND_DISK
+org.geometerplus.fbreader.network.AbstractNetworkLink:
+    93:96:public final void setSupportsBasket()
+org.geometerplus.fbreader.network.Base64EncodedImage:
+    private static final java.lang.String ENCODED_SUFFIX
+org.geometerplus.fbreader.network.ICustomNetworkLink:
+    public static final int INVALID_ID
+    public abstract void setSiteName(java.lang.String)
+    public abstract void removeUrl(org.geometerplus.fbreader.network.urlInfo.UrlInfo$Type)
+org.geometerplus.fbreader.network.NetworkCatalogItem:
+    public static final int FLAG_SHOW_AUTHOR
+    public static final int FLAG_GROUP_BY_AUTHOR
+    public static final int FLAG_GROUP_BY_SERIES
+    public static final int FLAG_GROUP_MORE_THAN_1_BOOK_BY_SERIES
+    public static final int FLAGS_DEFAULT
+    public static final int FLAGS_GROUP
+org.geometerplus.fbreader.network.NetworkDatabase:
+    protected abstract void executeAsATransaction(java.lang.Runnable)
+org.geometerplus.fbreader.network.NetworkException
+org.geometerplus.fbreader.network.NetworkImage:
+    private static final java.lang.String TOESCAPE
+org.geometerplus.fbreader.network.NetworkTree:
+    private static final java.lang.String DATA_PREFIX
+org.geometerplus.fbreader.network.NetworkTree$Key:
+    private static final long serialVersionUID
+org.geometerplus.fbreader.network.atom.ATOMCategory:
+    public static final java.lang.String TERM
+    public static final java.lang.String SCHEME
+    public static final java.lang.String LABEL
+    41:41:public final java.lang.String getScheme()
+org.geometerplus.fbreader.network.atom.ATOMCommonAttributes:
+    public static final java.lang.String XML_BASE
+    public static final java.lang.String XML_LANG
+    56:56:public final java.lang.String getLang()
+    60:60:public final java.lang.String getBase()
+org.geometerplus.fbreader.network.atom.ATOMConstants
+org.geometerplus.fbreader.network.atom.ATOMContributor
+org.geometerplus.fbreader.network.atom.ATOMGenerator
+org.geometerplus.fbreader.network.atom.ATOMLink:
+    public static final java.lang.String HREF
+    public static final java.lang.String REL
+    public static final java.lang.String TYPE
+    public static final java.lang.String HREFLANG
+    public static final java.lang.String TITLE
+    public static final java.lang.String LENGTH
+    55:55:public final java.lang.String getHrefLang()
+    63:63:public final java.lang.String getLength()
+org.geometerplus.fbreader.network.atom.ATOMLogo
+org.geometerplus.fbreader.network.atom.ATOMXMLReader:
+    private static final int START
+    protected static final int FEED
+    protected static final int F_ENTRY
+    private static final int F_ID
+    private static final int F_LINK
+    private static final int F_CATEGORY
+    private static final int F_TITLE
+    private static final int F_UPDATED
+    private static final int F_AUTHOR
+    private static final int F_SUBTITLE
+    private static final int F_ICON
+    private static final int FA_NAME
+    private static final int FA_URI
+    private static final int FA_EMAIL
+    private static final int FE_AUTHOR
+    private static final int FE_ID
+    private static final int FE_CATEGORY
+    protected static final int FE_LINK
+    private static final int FE_PUBLISHED
+    private static final int FE_SUMMARY
+    protected static final int FE_CONTENT
+    private static final int FE_TITLE
+    private static final int FE_UPDATED
+    private static final int FEA_NAME
+    private static final int FEA_URI
+    private static final int FEA_EMAIL
+    protected static final int ATOM_STATE_FIRST_UNUSED
+    protected static final java.lang.String TAG_FEED
+    protected static final java.lang.String TAG_ENTRY
+    protected static final java.lang.String TAG_AUTHOR
+    protected static final java.lang.String TAG_NAME
+    protected static final java.lang.String TAG_URI
+    protected static final java.lang.String TAG_EMAIL
+    protected static final java.lang.String TAG_ID
+    protected static final java.lang.String TAG_CATEGORY
+    protected static final java.lang.String TAG_LINK
+    protected static final java.lang.String TAG_PUBLISHED
+    protected static final java.lang.String TAG_SUMMARY
+    protected static final java.lang.String TAG_CONTENT
+    protected static final java.lang.String TAG_TITLE
+    protected static final java.lang.String TAG_UPDATED
+    protected static final java.lang.String TAG_SUBTITLE
+    protected static final java.lang.String TAG_ICON
+    31:34:public static java.lang.String intern(java.lang.String)
+org.geometerplus.fbreader.network.atom.FormattedBuffer:
+    54:55:public void appendText(char[],int,int)
+org.geometerplus.fbreader.network.authentication.NetworkAuthenticationManager:
+    123:123:public boolean passwordRecoverySupported()
+    127:127:public void recoverPassword(java.lang.String)
+org.geometerplus.fbreader.network.authentication.litres.LitResAuthenticationManager:
+    410:410:public boolean passwordRecoverySupported()
+    415:423:public void recoverPassword(java.lang.String)
+org.geometerplus.fbreader.network.authentication.litres.LitResAuthenticationXMLReader:
+    39:40:protected void setErrorMessage(java.lang.String)
+org.geometerplus.fbreader.network.authentication.litres.LitResGenre
+org.geometerplus.fbreader.network.authentication.litres.LitResLoginXMLReader:
+    private static final java.lang.String TAG_AUTHORIZATION_OK
+    private static final java.lang.String TAG_AUTHORIZATION_FAILED
+org.geometerplus.fbreader.network.authentication.litres.LitResPasswordRecoveryXMLReader
+org.geometerplus.fbreader.network.authentication.litres.LitResPurchaseXMLReader:
+    private static final java.lang.String TAG_AUTHORIZATION_FAILED
+    private static final java.lang.String TAG_PURCHASE_OK
+    private static final java.lang.String TAG_PURCHASE_FAILED
+org.geometerplus.fbreader.network.authentication.litres.LitResXMLReader:
+    private static final int START
+    private static final int CATALOG
+    private static final int BOOK
+    private static final int BOOK_DESCRIPTION
+    private static final int HIDDEN
+    private static final int TITLE_INFO
+    private static final int GENRE
+    private static final int AUTHOR
+    private static final int FIRST_NAME
+    private static final int MIDDLE_NAME
+    private static final int LAST_NAME
+    private static final int BOOK_TITLE
+    private static final int ANNOTATION
+    private static final int DATE
+    private static final int LANGUAGE
+    private static final java.lang.String TAG_CATALOG
+    private static final java.lang.String TAG_BOOK
+    private static final java.lang.String TAG_TEXT_DESCRIPTION
+    private static final java.lang.String TAG_HIDDEN
+    private static final java.lang.String TAG_TITLE_INFO
+    private static final java.lang.String TAG_GENRE
+    private static final java.lang.String TAG_AUTHOR
+    private static final java.lang.String TAG_FIRST_NAME
+    private static final java.lang.String TAG_MIDDLE_NAME
+    private static final java.lang.String TAG_LAST_NAME
+    private static final java.lang.String TAG_BOOK_TITLE
+    private static final java.lang.String TAG_ANNOTATION
+    private static final java.lang.String TAG_DATE
+    private static final java.lang.String TAG_SEQUENCE
+    private static final java.lang.String TAG_LANGUAGE
+org.geometerplus.fbreader.network.opds.BasketItem:
+    29:31:BasketItem(org.geometerplus.fbreader.network.opds.OPDSNetworkLink,java.lang.String,java.lang.String,org.geometerplus.fbreader.network.urlInfo.UrlInfoCollection,org.geometerplus.fbreader.network.NetworkCatalogItem$Accessibility)
+org.geometerplus.fbreader.network.opds.OPDSConstants
+org.geometerplus.fbreader.network.opds.OPDSCustomLink:
+    69:71:public final void setSiteName(java.lang.String)
+    90:92:public final void removeUrl(org.geometerplus.fbreader.network.urlInfo.UrlInfo$Type)
+org.geometerplus.fbreader.network.opds.OPDSLinkReader:
+    static final java.lang.String CATALOGS_URL
+    public static final int CACHE_LOAD
+    public static final int CACHE_UPDATE
+    public static final int CACHE_CLEAR
+org.geometerplus.fbreader.network.opds.OPDSLinkXMLReader:
+    private static final java.lang.String FBREADER_ADVANCED_SEARCH
+    private static final java.lang.String FBREADER_AUTHENTICATION
+    private static final java.lang.String FBREADER_STABLE_IDENTIFIERS
+    private static final java.lang.String FBREADER_REWRITING_RULE
+    private static final java.lang.String FBREADER_RELATION_ALIAS
+    private static final java.lang.String FBREADER_EXTRA
+org.geometerplus.fbreader.network.opds.OPDSLinkXMLReader$FeedHandler:
+    private static final java.lang.String ENTRY_ID_PREFIX
+org.geometerplus.fbreader.network.opds.OPDSXMLReader:
+    public static final java.lang.String KEY_PRICE
+    private static final int FE_DC_LANGUAGE
+    private static final int FE_DC_ISSUED
+    private static final int FE_DC_PUBLISHER
+    private static final int FE_CALIBRE_SERIES
+    private static final int FE_CALIBRE_SERIES_INDEX
+    private static final int FEL_PRICE
+    private static final int FEL_FORMAT
+    private static final int OPENSEARCH_TOTALRESULTS
+    private static final int OPENSEARCH_ITEMSPERPAGE
+    private static final int OPENSEARCH_STARTINDEX
+    private static final int FEC_HACK_SPAN
+    private static final java.lang.String TAG_PRICE
+    private static final java.lang.String TAG_HACK_SPAN
+    private static final java.lang.String DC_TAG_LANGUAGE
+    private static final java.lang.String DC_TAG_ISSUED
+    private static final java.lang.String DC_TAG_PUBLISHER
+    private static final java.lang.String DC_TAG_FORMAT
+    private static final java.lang.String CALIBRE_TAG_SERIES
+    private static final java.lang.String CALIBRE_TAG_SERIES_INDEX
+    private static final java.lang.String OPENSEARCH_TAG_TOTALRESULTS
+    private static final java.lang.String OPENSEARCH_TAG_ITEMSPERPAGE
+    private static final java.lang.String OPENSEARCH_TAG_STARTINDEX
+org.geometerplus.fbreader.network.opds.OpenSearchXMLReader:
+    private static final int START
+    private static final int DESCRIPTION
+    private static final java.lang.String TAG_DESCRIPTION
+    private static final java.lang.String TAG_URL
+org.geometerplus.fbreader.network.opds.URLRewritingRule:
+    public static final int ADD_URL_PARAMETER
+    public static final int REWRITE
+    public static final int UNKNOWN
+    public static final int APPLY_EXTERNAL
+    public static final int APPLY_INTERNAL
+    public static final int APPLY_ALWAYS
+org.geometerplus.fbreader.network.urlInfo.BookUrlInfo:
+    private static final long serialVersionUID
+    private static final java.lang.String TOESCAPE
+org.geometerplus.fbreader.network.urlInfo.BookUrlInfo$Format
+org.geometerplus.fbreader.network.urlInfo.RelatedUrlInfo:
+    private static final long serialVersionUID
+org.geometerplus.fbreader.network.urlInfo.UrlInfo:
+    private static final long serialVersionUID
+org.geometerplus.fbreader.network.urlInfo.UrlInfoCollection:
+    private static final long serialVersionUID
+org.geometerplus.fbreader.network.urlInfo.UrlInfoWithDate:
+    private static final long serialVersionUID
+org.geometerplus.zlibrary.core.application.ZLApplication:
+    public static final java.lang.String NoAction
+    195:196:public final void unregisterButtonPanel(org.geometerplus.zlibrary.core.application.ZLApplication$ButtonPanel)
+org.geometerplus.zlibrary.core.application.ZLKeyBindings:
+    private static final java.lang.String ACTION
+    private static final java.lang.String LONG_PRESS_ACTION
+    62:69:public void bindKey(java.lang.String,boolean,java.lang.String)
+org.geometerplus.zlibrary.core.constants.XMLNamespaces
+org.geometerplus.zlibrary.core.encoding.ZLEncodingCollection:
+    47:48:public java.lang.String getEncodingName(java.lang.String)
+org.geometerplus.zlibrary.core.encoding.ZLEncodingCollection$ZLEncodingCollectionReader:
+    private static final java.lang.String ENCODING
+    private static final java.lang.String NAME
+    private static final java.lang.String ALIAS
+    private static final java.lang.String CODE
+    private static final java.lang.String NUMBER
+org.geometerplus.zlibrary.core.filesystem.ZLFile:
+    140:140:public final boolean isCompressed()
+org.geometerplus.zlibrary.core.filesystem.ZLFile$ArchiveType
+org.geometerplus.zlibrary.core.html.ZLHtmlAttributeMap:
+    73:73:public int getSize()
+    77:77:public org.geometerplus.zlibrary.core.html.ZLByteBuffer getKey(int)
+org.geometerplus.zlibrary.core.html.ZLHtmlParser:
+    private static final byte START_DOCUMENT
+    private static final byte START_TAG
+    private static final byte END_TAG
+    private static final byte TEXT
+    private static final byte COMMENT
+    private static final byte LANGLE
+    private static final byte WS_AFTER_START_TAG_NAME
+    private static final byte WS_AFTER_END_TAG_NAME
+    private static final byte WAIT_EQUALS
+    private static final byte WAIT_ATTRIBUTE_VALUE
+    private static final byte SLASH
+    private static final byte ATTRIBUTE_NAME
+    private static final byte S_ATTRIBUTE_VALUE
+    private static final byte DEFAULT_ATTRIBUTE_VALUE
+    private static final byte COMMENT_MINUS
+    private static final byte D_ATTRIBUTE_VALUE
+    private static final byte SCRIPT
+    private static final byte ENTITY_REF
+org.geometerplus.zlibrary.core.image.ZLFileImage:
+    public static final java.lang.String SCHEME
+org.geometerplus.zlibrary.core.image.ZLImageManager:
+    122:122:private static int uShort(byte[],int)
+    121:121:static int access$0(byte[],int)
+org.geometerplus.zlibrary.core.image.ZLImageManager$PalmImageHeader
+org.geometerplus.zlibrary.core.image.ZLImageMap:
+    private static final long serialVersionUID
+org.geometerplus.zlibrary.core.image.ZLLoadableImage$SourceType
+org.geometerplus.zlibrary.core.language.ZLLanguageDetector
+org.geometerplus.zlibrary.core.language.ZLLanguageDetector$EncodingType
+org.geometerplus.zlibrary.core.language.ZLLanguageDetector$LanguageInfo
+org.geometerplus.zlibrary.core.language.ZLLanguageMatcher
+org.geometerplus.zlibrary.core.language.ZLLanguageMatcher$ZLLanguagePatternBasedMatcher
+org.geometerplus.zlibrary.core.language.ZLLanguageMatcher$ZLWordBasedMatcher
+org.geometerplus.zlibrary.core.language.ZLLanguageUtil:
+    public static final java.lang.String OTHER_LANGUAGE_CODE
+    public static final java.lang.String MULTI_LANGUAGE_CODE
+org.geometerplus.zlibrary.core.network.ZLNetworkException:
+    private static final long serialVersionUID
+    public static final java.lang.String ERROR_UNKNOWN_ERROR
+    public static final java.lang.String ERROR_TIMEOUT
+    public static final java.lang.String ERROR_CONNECT_TO_NETWORK
+    public static final java.lang.String ERROR_UNSUPPORTED_PROTOCOL
+    public static final java.lang.String ERROR_INVALID_URL
+    public static final java.lang.String ERROR_AUTHENTICATION_FAILED
+    public static final java.lang.String ERROR_SOMETHING_WRONG
+    public static final java.lang.String ERROR_CREATE_DIRECTORY
+    public static final java.lang.String ERROR_CREATE_FILE
+    public static final java.lang.String ERROR_CONNECT_TO_HOST
+    public static final java.lang.String ERROR_RESOLVE_HOST
+    public static final java.lang.String ERROR_HOST_CANNOT_BE_REACHED
+    public static final java.lang.String ERROR_CONNECTION_REFUSED
+    86:88:public ZLNetworkException(java.lang.String,java.lang.String,java.lang.Throwable)
+org.geometerplus.zlibrary.core.network.ZLNetworkManager:
+    130:130:private void setCommonHTTPOptions(org.apache.http.HttpMessage)
+    262:263:public final void downloadToFile(java.lang.String,java.lang.String,java.io.File)
+org.geometerplus.zlibrary.core.options.ZLOption:
+    public static final java.lang.String PLATFORM_GROUP
+org.geometerplus.zlibrary.core.resources.ZLMissingResource:
+    static final java.lang.String Value
+org.geometerplus.zlibrary.core.resources.ZLTreeResource$ResourceTreeReader:
+    private static final java.lang.String NODE
+org.geometerplus.zlibrary.core.util.MimeType:
+    public static final java.lang.String IMAGE_PREFIX
+org.geometerplus.zlibrary.core.util.ZLArrayUtils:
+    24:28:public static boolean[] createCopy(boolean[],int,int)
+org.geometerplus.zlibrary.core.util.ZLMiscUtil:
+    31:31:public static boolean isEmptyString(java.lang.String)
+    39:45:public static boolean listsEquals(java.util.List,java.util.List)
+org.geometerplus.zlibrary.core.util.ZLUnicodeUtil
+org.geometerplus.zlibrary.core.view.DummyPaintContext:
+    92:92:public void drawFilledCircle(int,int,int)
+    97:97:public java.lang.String realFontFamilyName(java.lang.String)
+    100:100:protected void fillFamiliesList(java.util.ArrayList)
+org.geometerplus.zlibrary.core.view.ZLPaintContext:
+    public abstract void drawFilledCircle(int,int,int)
+    154:157:public java.util.ArrayList fontFamilies()
+    public abstract java.lang.String realFontFamilyName(java.lang.String)
+    protected abstract void fillFamiliesList(java.util.ArrayList)
+org.geometerplus.zlibrary.core.view.ZLPaintContext$FillStyle
+org.geometerplus.zlibrary.core.view.ZLPaintContext$LineStyle
+org.geometerplus.zlibrary.core.view.ZLView:
+    33:33:public final org.geometerplus.zlibrary.core.view.ZLPaintContext getContext()
+org.geometerplus.zlibrary.core.xml.ZLDTDParser:
+    private static final byte IGNORABLE_WHITESPACE
+    private static final byte LANGLE
+    private static final byte TAG_PREFIX
+    private static final byte COMMENT
+    private static final byte END_OF_COMMENT1
+    private static final byte END_OF_COMMENT2
+    private static final byte ENTITY
+    private static final byte WAIT_NAME
+    private static final byte NAME
+    private static final byte WAIT_VALUE
+    private static final byte VALUE
+    private static final byte WAIT_END_OF_ENTITY
+org.geometerplus.zlibrary.core.xml.ZLXMLParser:
+    private static final byte START_DOCUMENT
+    private static final byte START_TAG
+    private static final byte END_TAG
+    private static final byte TEXT
+    private static final byte COMMENT
+    private static final byte END_OF_COMMENT1
+    private static final byte END_OF_COMMENT2
+    private static final byte EXCL_TAG
+    private static final byte EXCL_TAG_START
+    private static final byte Q_TAG
+    private static final byte END_OF_Q_TAG
+    private static final byte LANGLE
+    private static final byte WS_AFTER_START_TAG_NAME
+    private static final byte WS_AFTER_ATTRIBUTE_VALUE
+    private static final byte WAIT_EQUALS
+    private static final byte WAIT_ATTRIBUTE_VALUE
+    private static final byte SLASH
+    private static final byte ATTRIBUTE_NAME
+    private static final byte ATTRIBUTE_VALUE_QUOT
+    private static final byte ATTRIBUTE_VALUE_APOS
+    private static final byte ENTITY_REF
+    private static final byte CDATA
+    private static final byte END_OF_CDATA1
+    private static final byte END_OF_CDATA2
+org.geometerplus.zlibrary.core.xml.ZLXMLReaderAdapter:
+    98:113:protected java.lang.String getAttributeValue(org.geometerplus.zlibrary.core.xml.ZLStringMap,org.geometerplus.zlibrary.core.xml.ZLXMLReaderAdapter$Predicate,java.lang.String)
+org.geometerplus.zlibrary.core.xml.ZLXMLReaderAdapter$Predicate
+org.geometerplus.zlibrary.text.hyphenation.ZLTextHyphenationReader:
+    private static final java.lang.String PATTERN
+org.geometerplus.zlibrary.text.hyphenation.ZLTextHyphenator:
+    38:42:public static void deleteInstance()
+    public abstract void unload()
+org.geometerplus.zlibrary.text.hyphenation.ZLTextTeXHyphenationPattern:
+    114:114:public int getLength()
+    118:118:public char[] getSymbols()
+    122:122:public byte[] getValues()
+org.geometerplus.zlibrary.text.model.CachedCharStorage:
+    116:117:public void clear()
+org.geometerplus.zlibrary.text.model.CachedCharStorageException:
+    private static final long serialVersionUID
+org.geometerplus.zlibrary.text.model.CharStorage:
+    public abstract void clear()
+org.geometerplus.zlibrary.text.model.SimpleCharStorage
+org.geometerplus.zlibrary.text.model.ZLTextAlignmentType
+org.geometerplus.zlibrary.text.model.ZLTextForcedControlEntry:
+    static final short SUPPORTS_LEFT_INDENT
+    static final short SUPPORTS_RIGHT_INDENT
+    static final short SUPPORTS_ALIGNMENT_TYPE
+    36:36:short getMask()
+    40:40:public boolean isLeftIndentSupported()
+    44:44:public short getLeftIndent()
+    53:53:public boolean isRightIndentSupported()
+    57:57:public short getRightIndent()
+    66:66:public boolean isAlignmentTypeSupported()
+    70:70:public byte getAlignmentType()
+org.geometerplus.zlibrary.text.model.ZLTextMark:
+    33:37:public ZLTextMark(org.geometerplus.zlibrary.text.model.ZLTextMark)
+org.geometerplus.zlibrary.text.model.ZLTextParagraph$Entry
+org.geometerplus.zlibrary.text.model.ZLTextParagraph$Kind
+org.geometerplus.zlibrary.text.model.ZLTextPlainModel$EntryIteratorImpl:
+    111:111:public org.geometerplus.zlibrary.text.model.ZLTextForcedControlEntry getForcedControlEntry()
+org.geometerplus.zlibrary.text.model.ZLTextWritableModel:
+    public abstract void addText(char[])
+org.geometerplus.zlibrary.text.model.ZLTextWritablePlainModel:
+    85:86:public void addText(char[])
+    101:118:public void addControl(org.geometerplus.zlibrary.text.model.ZLTextForcedControlEntry)
+org.geometerplus.zlibrary.text.view.PaintStateEnum
+org.geometerplus.zlibrary.text.view.ZLTextElementAreaVector:
+    private static final long serialVersionUID
+    67:84:org.geometerplus.zlibrary.text.view.ZLTextElementArea binarySearch(int,int)
+org.geometerplus.zlibrary.text.view.ZLTextParagraphCursor:
+    242:242:org.geometerplus.zlibrary.text.model.ZLTextParagraph getParagraph()
+org.geometerplus.zlibrary.text.view.ZLTextParagraphCursor$Processor:
+    private static final int NO_SPACE
+    private static final int SPACE
+org.geometerplus.zlibrary.text.view.ZLTextSelectionModel:
+    118:128:void activate(int,int)
+    192:192:java.lang.String getText()
+org.geometerplus.zlibrary.text.view.ZLTextSelectionModel$Bound:
+    66:68:void copyFrom(org.geometerplus.zlibrary.text.view.ZLTextSelectionModel$Bound)
+org.geometerplus.zlibrary.text.view.ZLTextView:
+    public static final int SCROLLBAR_HIDE
+    public static final int SCROLLBAR_SHOW
+    public static final int SCROLLBAR_SHOW_AS_PROGRESS
+    1240:1240:protected org.geometerplus.zlibrary.text.view.ZLTextElementArea getElementByCoordinates(int,int)
+    1332:1334:public void resetRegionPointer()
+org.geometerplus.zlibrary.text.view.ZLTextView$ScrollingMode
+org.geometerplus.zlibrary.text.view.ZLTextView$SizeUnit
+org.geometerplus.zlibrary.text.view.ZLTextWordCursor:
+    45:47:public ZLTextWordCursor(org.geometerplus.zlibrary.text.view.ZLTextParagraphCursor)
+    112:114:public void previousWord()
+org.geometerplus.zlibrary.text.view.style.ZLTextBaseStyle:
+    private static final java.lang.String GROUP
+    private static final java.lang.String OPTIONS
+org.geometerplus.zlibrary.text.view.style.ZLTextStyleCollection:
+    45:46:public static void deleteInstance()
+org.geometerplus.zlibrary.text.view.style.ZLTextStyleDecoration:
+    static final java.lang.String STYLE
+org.geometerplus.zlibrary.ui.android.image.ZLAndroidImageLoader:
+    private static final int IMAGE_LOADING_THREADS_NUMBER
+org.geometerplus.zlibrary.ui.android.library.BugReportActivity:
+    static final java.lang.String STACKTRACE
+org.geometerplus.zlibrary.ui.android.library.ZLAndroidActivity:
+    private static final java.lang.String TAG
+    private android.view.View mCustomView
+    private static final java.lang.String REQUESTED_ORIENTATION_KEY
+    private static final java.lang.String ORIENTATION_CHANGE_COUNTER_KEY
+org.geometerplus.zlibrary.ui.android.view.ZLAndroidPaintContext:
+    274:274:public void drawFilledCircle(int,int,int)
+    281:282:protected void fillFamiliesList(java.util.ArrayList)
+org.vimgadgets.linebreak.LineBreaker:
+    public static final char MUSTBREAK
+    public static final char ALLOWBREAK
+    public static final char NOBREAK
+    public static final char INSIDEACHAR
+    private static native void setLineBreaksForString(java.lang.String,java.lang.String,byte[])
+    29:30:public void setLineBreaks(java.lang.String,byte[])

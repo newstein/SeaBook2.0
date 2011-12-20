@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@+id/myBookLayout"  android:layout_width="fill_parent" android:layout_height="120.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:paddingRight="4.0dip" android:background="@drawable/bookshelf" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        
+        <FrameLayout android:id="@+id/FrameLayout01" android:background="@drawable/bookcover2" android:paddingLeft="1.0px" android:layout_width="98.0dip" android:layout_height="104.0dip" android:layout_marginLeft="8.0dip" android:layout_marginTop="4.0dip">
+
+            <ImageView android:layout_gravity="bottom|center" android:id="@+id/library_tree_item_icon" android:layout_width="71.0dip" android:layout_height="94.0dip" android:scaleType="centerInside" />
+            <TextView android:textSize="9.0sp" android:textStyle="bold" android:textColor="#ff222222" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@+id/library_tree_item_name2" android:paddingLeft="20.0dip" android:paddingTop="30.0dip" android:paddingRight="16.0dip" android:paddingBottom="40.0dip" android:layout_width="fill_parent" android:layout_height="130.0dip" android:text="SeaBook 2.0" />
+        </FrameLayout>
+     
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical"  android:paddingTop="8.0dip" android:paddingBottom="7.0dip" android:layout_width="fill_parent" android:layout_height="106.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="14.0dip">
+        <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:ellipsize="middle" android:id="@+id/library_tree_item_name" android:paddingTop="8.0dip" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="SeaBook 2.0" />
+        <TextView android:textSize="12.0sp" android:textColor="#ffcccccc" android:ellipsize="marquee" android:id="@+id/library_tree_item_childrenlist" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="by sean " android:layout_weight="5.0" />
+    </LinearLayout>    
+</LinearLayout>
+<!--
+    <LinearLayout android:orientation="vertical"  android:paddingTop="8.0dip" android:paddingBottom="7.0dip" android:layout_width="fill_parent" android:layout_height="106.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="14.0dip">
+        <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="#00000000" android:ellipsize="middle" android:id="@+id/library_tree_item_name" android:paddingTop="8.0dip" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="SeaBook 2.0" />
+        <TextView android:textSize="12.0sp" android:textColor="#ffcccccc" android:ellipsize="marquee" android:id="@+id/library_tree_item_childrenlist" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="by sean " android:layout_weight="5.0" />
+    </LinearLayout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:background="@drawable/itembg"
+	android:minHeight="?android:attr/listPreferredItemHeight"
+	android:paddingLeft="5dip"
+	android:orientation="horizontal"
+	android:gravity="top|left"
+>
+    <ImageView
+        android:id="@+id/itemBgImage"
+        android:src="@drawable/itembg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitXY"
+        />
+	<ImageView
+		android:id="@+id/library_tree_item_icon"
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		android:adjustViewBounds="false"
+	/>
+
+	<RelativeLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:paddingTop="6dp"
+	>
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:paddingLeft="8dp"
+			android:paddingRight="8dp"
+			android:orientation="vertical"
+		>
+			<TextView
+				android:id="@+id/library_tree_item_name"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignParentTop="true"
+				android:singleLine="true"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:ellipsize="marquee"
+				android:marqueeRepeatLimit="marquee_forever"
+			/>
+			<TextView
+				android:id="@+id/library_tree_item_childrenlist"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dip"
+				android:layout_below="@id/library_tree_item_name"
+				android:singleLine="true"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:ellipsize="marquee"
+				android:marqueeRepeatLimit="marquee_forever"
+			/>
+		</LinearLayout>
+	</RelativeLayout>        
+	
+</LinearLayout>
+-->

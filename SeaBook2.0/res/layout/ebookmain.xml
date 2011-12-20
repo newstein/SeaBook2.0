@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<RelativeLayout              
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/seabook_main"                     
+              >
+	<TextView android:id="@+id/TextView01" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_alignParentTop="true"
+		android:layout_centerInParent="true" 
+		android:gravity="center_horizontal|center_vertical" android:textColor="#CCFFFFFF"
+		android:textSize="30sp" android:shadowColor="#DA000000"
+		android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="2.5" />
+	<ImageView android:id="@+id/ImageView01"
+		android:layout_width="300dp" android:layout_height="300dp"
+		android:layout_centerInParent="true">
+	</ImageView> 
+
+ 	<org.geometerplus.android.fbreader.CoverFlow android:id="@+id/coverflow"
+			android:layout_width="400dp" 
+			android:layout_height="wrap_content"
+			android:layout_alignParentBottom="true" 
+			android:layout_centerInParent="true"			
+			android:text="@string/toggle_home_as_up" />   
+</RelativeLayout>				
+    <LinearLayout
+        android:id="@+id/adview"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        >
+    </LinearLayout>
+		
+</LinearLayout>

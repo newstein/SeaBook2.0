@@ -1,0 +1,115 @@
+org.amse.ys.zip.DeflatingDecompressor
+org.amse.ys.zip.DeflatingDecompressor: boolean startInflating()
+org.amse.ys.zip.DeflatingDecompressor: void endInflating()
+org.amse.ys.zip.DeflatingDecompressor: long inflate(byte[],int,int,byte[])
+org.vimgadgets.linebreak.LineBreaker
+org.vimgadgets.linebreak.LineBreaker: void init()
+org.vimgadgets.linebreak.LineBreaker: void setLineBreaksForCharArray(char[],int,int,java.lang.String,byte[])
+org.vimgadgets.linebreak.LineBreaker: void setLineBreaksForString(java.lang.String,java.lang.String,byte[])
+org.geometerplus.zlibrary.ui.android.view.ZLAndroidWidget
+org.geometerplus.zlibrary.ui.android.view.ZLAndroidWidget: ZLAndroidWidget(android.content.Context,android.util.AttributeSet)
+com.google.ads.AdView
+com.google.ads.AdView: AdView(android.content.Context,android.util.AttributeSet)
+org.geometerplus.android.fbreader.CoverFlow$LayoutParams
+org.geometerplus.android.fbreader.CoverFlow$LayoutParams: CoverFlow$LayoutParams(android.content.Context,android.util.AttributeSet)
+org.geometerplus.android.fbreader.CoverFlow
+org.geometerplus.android.fbreader.CoverFlow: CoverFlow(android.content.Context,android.util.AttributeSet)
+org.geometerplus.android.fbreader.CoverAbsSpinner: CoverAbsSpinner(android.content.Context,android.util.AttributeSet)
+org.geometerplus.android.fbreader.CoverAdapterView: CoverAdapterView(android.content.Context,android.util.AttributeSet)
+org.geometerplus.android.fbreader.CoverAbsSpinner
+org.geometerplus.android.fbreader.CoverAbsSpinner: CoverAbsSpinner(android.content.Context,android.util.AttributeSet)
+org.geometerplus.android.fbreader.CoverAdapterView: CoverAdapterView(android.content.Context,android.util.AttributeSet)
+org.geometerplus.android.fbreader.CoverAdapterView
+org.geometerplus.android.fbreader.CoverAdapterView: CoverAdapterView(android.content.Context,android.util.AttributeSet)
+org.geometerplus.zlibrary.ui.android.view.ZLAndroidWidget
+org.geometerplus.zlibrary.ui.android.view.ZLAndroidWidget: ZLAndroidWidget(android.content.Context,android.util.AttributeSet,int)
+com.google.ads.AdView
+com.google.ads.AdView: AdView(android.content.Context,android.util.AttributeSet,int)
+org.geometerplus.android.fbreader.CoverFlow
+org.geometerplus.android.fbreader.CoverFlow: CoverFlow(android.content.Context,android.util.AttributeSet,int)
+org.geometerplus.android.fbreader.CoverAbsSpinner: CoverAbsSpinner(android.content.Context,android.util.AttributeSet,int)
+org.geometerplus.android.fbreader.CoverAdapterView: CoverAdapterView(android.content.Context,android.util.AttributeSet,int)
+org.geometerplus.android.fbreader.CoverAbsSpinner
+org.geometerplus.android.fbreader.CoverAbsSpinner: CoverAbsSpinner(android.content.Context,android.util.AttributeSet,int)
+org.geometerplus.android.fbreader.CoverAdapterView: CoverAdapterView(android.content.Context,android.util.AttributeSet,int)
+org.geometerplus.android.fbreader.CoverAdapterView
+org.geometerplus.android.fbreader.CoverAdapterView: CoverAdapterView(android.content.Context,android.util.AttributeSet,int)
+org.geometerplus.zlibrary.ui.android.view.AnimationProvider$Mode: org.geometerplus.zlibrary.ui.android.view.AnimationProvider$Mode[] values()
+org.geometerplus.zlibrary.ui.android.view.AnimationProvider$Mode: org.geometerplus.zlibrary.ui.android.view.AnimationProvider$Mode valueOf(java.lang.String)
+org.geometerplus.fbreader.fbreader.ScrollingPreferences$FingerScrolling: org.geometerplus.fbreader.fbreader.ScrollingPreferences$FingerScrolling[] values()
+org.geometerplus.fbreader.fbreader.ScrollingPreferences$FingerScrolling: org.geometerplus.fbreader.fbreader.ScrollingPreferences$FingerScrolling valueOf(java.lang.String)
+com.google.ads.util.AdUtil$a: com.google.ads.util.AdUtil$a[] values()
+com.google.ads.util.AdUtil$a: com.google.ads.util.AdUtil$a valueOf(java.lang.String)
+com.google.ads.AdRequest$Gender: com.google.ads.AdRequest$Gender[] values()
+com.google.ads.AdRequest$Gender: com.google.ads.AdRequest$Gender valueOf(java.lang.String)
+org.geometerplus.fbreader.fbreader.ScrollingPreferences$TapZonesScheme: org.geometerplus.fbreader.fbreader.ScrollingPreferences$TapZonesScheme[] values()
+org.geometerplus.fbreader.fbreader.ScrollingPreferences$TapZonesScheme: org.geometerplus.fbreader.fbreader.ScrollingPreferences$TapZonesScheme valueOf(java.lang.String)
+org.geometerplus.fbreader.network.urlInfo.UrlInfo$Type: org.geometerplus.fbreader.network.urlInfo.UrlInfo$Type[] values()
+org.geometerplus.fbreader.network.urlInfo.UrlInfo$Type: org.geometerplus.fbreader.network.urlInfo.UrlInfo$Type valueOf(java.lang.String)
+org.geometerplus.fbreader.network.NetworkCatalogItem$Accessibility: org.geometerplus.fbreader.network.NetworkCatalogItem$Accessibility[] values()
+org.geometerplus.fbreader.network.NetworkCatalogItem$Accessibility: org.geometerplus.fbreader.network.NetworkCatalogItem$Accessibility valueOf(java.lang.String)
+org.geometerplus.zlibrary.core.language.ZLLanguageDetector$EncodingType: org.geometerplus.zlibrary.core.language.ZLLanguageDetector$EncodingType[] values()
+org.geometerplus.zlibrary.core.language.ZLLanguageDetector$EncodingType: org.geometerplus.zlibrary.core.language.ZLLanguageDetector$EncodingType valueOf(java.lang.String)
+org.geometerplus.zlibrary.core.view.ZLView$Animation: org.geometerplus.zlibrary.core.view.ZLView$Animation[] values()
+org.geometerplus.zlibrary.core.view.ZLView$Animation: org.geometerplus.zlibrary.core.view.ZLView$Animation valueOf(java.lang.String)
+org.geometerplus.fbreader.network.atom.FormattedBuffer$Type: org.geometerplus.fbreader.network.atom.FormattedBuffer$Type[] values()
+org.geometerplus.fbreader.network.atom.FormattedBuffer$Type: org.geometerplus.fbreader.network.atom.FormattedBuffer$Type valueOf(java.lang.String)
+org.geometerplus.fbreader.fbreader.FBReaderApp$DictionaryTappingAction: org.geometerplus.fbreader.fbreader.FBReaderApp$DictionaryTappingAction[] values()
+org.geometerplus.fbreader.fbreader.FBReaderApp$DictionaryTappingAction: org.geometerplus.fbreader.fbreader.FBReaderApp$DictionaryTappingAction valueOf(java.lang.String)
+org.geometerplus.zlibrary.core.util.ZLBoolean3: org.geometerplus.zlibrary.core.util.ZLBoolean3[] values()
+org.geometerplus.zlibrary.core.util.ZLBoolean3: org.geometerplus.zlibrary.core.util.ZLBoolean3 valueOf(java.lang.String)
+org.geometerplus.zlibrary.core.view.ZLView$PageIndex: org.geometerplus.zlibrary.core.view.ZLView$PageIndex[] values()
+org.geometerplus.zlibrary.core.view.ZLView$PageIndex: org.geometerplus.zlibrary.core.view.ZLView$PageIndex valueOf(java.lang.String)
+org.geometerplus.fbreader.fbreader.TapZoneMap$Tap: org.geometerplus.fbreader.fbreader.TapZoneMap$Tap[] values()
+org.geometerplus.fbreader.fbreader.TapZoneMap$Tap: org.geometerplus.fbreader.fbreader.TapZoneMap$Tap valueOf(java.lang.String)
+org.geometerplus.zlibrary.core.view.ZLView$Direction: org.geometerplus.zlibrary.core.view.ZLView$Direction[] values()
+org.geometerplus.zlibrary.core.view.ZLView$Direction: org.geometerplus.zlibrary.core.view.ZLView$Direction valueOf(java.lang.String)
+com.google.ads.AdRequest$ErrorCode: com.google.ads.AdRequest$ErrorCode[] values()
+com.google.ads.AdRequest$ErrorCode: com.google.ads.AdRequest$ErrorCode valueOf(java.lang.String)
+org.geometerplus.fbreader.fbreader.FBReaderApp$ImageTappingAction: org.geometerplus.fbreader.fbreader.FBReaderApp$ImageTappingAction[] values()
+org.geometerplus.fbreader.fbreader.FBReaderApp$ImageTappingAction: org.geometerplus.fbreader.fbreader.FBReaderApp$ImageTappingAction valueOf(java.lang.String)
+org.geometerplus.fbreader.fbreader.FBReaderApp$CancelActionType: org.geometerplus.fbreader.fbreader.FBReaderApp$CancelActionType[] values()
+org.geometerplus.fbreader.fbreader.FBReaderApp$CancelActionType: org.geometerplus.fbreader.fbreader.FBReaderApp$CancelActionType valueOf(java.lang.String)
+com.sean.bookcase.BookCaseIntro
+org.geometerplus.android.fbreader.BookInfoActivity
+org.geometerplus.android.fbreader.network.AuthenticationActivity
+org.geometerplus.android.fbreader.BookmarkEditActivity
+org.geometerplus.zlibrary.ui.android.library.BugReportActivity
+org.geometerplus.android.fbreader.network.NetworkSearchActivity
+org.geometerplus.android.fbreader.ebookmain
+com.google.ads.AdActivity
+org.geometerplus.zlibrary.ui.android.library.ZLAndroidActivity
+org.geometerplus.android.fbreader.FBReader
+org.geometerplus.android.fbreader.image.ImageViewActivity
+com.sean.bookcase.BookCaseAllBook
+org.geometerplus.android.fbreader.network.BookDownloader
+org.geometerplus.android.fbreader.network.NetworkBookInfoActivity
+org.geometerplus.android.fbreader.network.AddCustomCatalogActivity
+com.sean.bookcase.BookCaseList
+org.geometerplus.android.fbreader.BookmarksActivity
+org.geometerplus.android.fbreader.TOCActivity
+org.geometerplus.android.fbreader.CancelActivity
+org.geometerplus.android.fbreader.library.LibrarybyauthorActivity
+org.geometerplus.android.fbreader.library.LibraryTopLevelActivity
+org.geometerplus.android.fbreader.library.LibraryFavoritesActivity
+org.geometerplus.android.fbreader.library.LibraryRecentActivity
+org.geometerplus.android.fbreader.library.LibraryfiletreeActivity
+org.geometerplus.android.fbreader.library.LibrarybytitleActivity
+org.geometerplus.android.fbreader.library.LibraryTreeActivity
+org.geometerplus.android.fbreader.library.LibrarybytagActivity
+org.geometerplus.android.fbreader.library.FileManager
+org.geometerplus.android.fbreader.network.NetworkCatalogActivity
+org.geometerplus.android.fbreader.network.NetworkLibraryActivity
+org.geometerplus.android.fbreader.preferences.EditBookInfoActivity
+org.geometerplus.android.fbreader.preferences.PreferenceActivity
+org.geometerplus.zlibrary.ui.android.library.ZLAndroidApplication
+org.geometerplus.android.fbreader.network.ItemsLoadingService
+org.geometerplus.android.fbreader.network.BookDownloaderService
+org.geometerplus.android.fbreader.library.InitializationService
+org.geometerplus.android.fbreader.network.LibraryInitializationService
+org.geometerplus.android.fbreader.library.KillerCallback
+com.google.ads.InstallReceiver
+com.google.ads.util.AdUtil$UserActivityReceiver
+org.geometerplus.android.fbreader.network.BookDownloaderCallback
+org.geometerplus.android.fbreader.CoverAbsSpinner$SavedState
+org.geometerplus.android.fbreader.CoverAbsSpinner$SavedState: android.os.Parcelable$Creator CREATOR
